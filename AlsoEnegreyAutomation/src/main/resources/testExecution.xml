@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PowerTrack" parallel="false">
+ 
+   
+    <groups>
+    <run>
+        <include name="testExecution"/>
+    </run>
+  </groups>
+  <test name="PowerTrack">
+  <classes>
+         <!--  <class name="com.also.enegrey.tests.LoginTest"/>
+          <class name="com.also.enegrey.tests.HomeTest"/>   -->
+         <class name="com.also.enegrey.tests.SiteTest"/> 
+ 
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
