@@ -50,11 +50,8 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18</version>
 				<configuration>
-					<scm>
-						<tag>itabuy-common-root-2.06</tag>
-					</scm>
-					<source>1.8</source>
-					<target>1.8</target>
+					<source>2.0</source>
+					<target>2.0</target>
 					<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>src/main/resources/testExecution.xml</suiteXmlFile>
@@ -86,7 +83,6 @@
 			<plugin>
 				<groupId>ch.fortysix</groupId>
 				<artifactId>maven-postman-plugin</artifactId>
-				<version>0.1.6</version>
 				<executions>
 					<execution>
 						<id>send a mail</id>
