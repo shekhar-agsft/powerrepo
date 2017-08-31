@@ -18,8 +18,7 @@ import com.also.energy.common.Reader;
 import com.also.energy.pageobjects.HomePage;
 import com.also.energy.pageobjects.LoginPage;
 import com.also.energy.pageobjects.SitePage;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+
 
 public class SiteTest {
 	public static Logger logger = Logger.getLogger(HomeTest.class);
@@ -29,8 +28,7 @@ public class SiteTest {
 	public LoginPage loginTestPage;
 	private CrossBrowser browser;
 	public static  RemoteWebDriver driver;
-	ExtentReports report;
-	ExtentTest extentTestlogger;
+	
 
 	@BeforeTest(alwaysRun = true)
 	public void driverInit() throws Exception {

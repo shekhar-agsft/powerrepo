@@ -15,9 +15,7 @@ import org.testng.annotations.Test;
 import com.also.energy.common.CrossBrowser;
 import com.also.energy.common.Reader;
 import com.also.energy.pageobjects.LoginPage;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
+
 
 public class LoginTest {
 
